@@ -1,31 +1,25 @@
 {
   "name": "interstellar",
-  "version": "5.2.5",
+  "version": "6.0.0",
+  "description": "Interstellar web proxy server",
   "type": "module",
-  "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
-  },
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "format": "biome format --write .",
-    "precommit": "pnpm run format && biome check --write .",
-    "lint": "biome lint --write ."
+    "dev": "node index.js"
   },
-  "author": "InterstellarNetwork",
-  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
   "dependencies": {
-    "@nebula-services/bare-server-node": "^2.0.4",
-    "chalk": "^5.4.1",
-    "cookie-parser": "^1.4.7",
+    "@nebula-services/bare-server-node": "^1.2.8",
+    "chalk": "^5.3.0",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.0",
-    "express": "^4.21.2",
+    "express": "^4.19.2",
     "express-basic-auth": "^1.2.1",
-    "mime": "^4.0.7",
+    "mime": "^4.0.6",
     "node-fetch": "^3.3.2"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.1.1"
   }
 }
