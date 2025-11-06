@@ -167,9 +167,7 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Thanks for using the site",
+  "Made by FuzzTheHuzz, or Devon",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
