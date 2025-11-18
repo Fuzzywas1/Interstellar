@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Made by FuzzTheHuzz, or Devon",
+  "Made by FuzzTheHuzz",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
