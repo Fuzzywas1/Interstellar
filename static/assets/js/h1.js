@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Made by FuzzTheHuzz",
+  "If you have this website, then don't share it with anyone else",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
