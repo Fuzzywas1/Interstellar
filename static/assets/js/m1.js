@@ -1,4 +1,3 @@
-// main.js
 let qp;
 
 try {
@@ -317,3 +316,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.style.backgroundImage = `url('${savedBackgroundImage}')`;
   }
 });
+  
+// ------------------------------------------
+// THEME CHANGE FUNCTION (Added)
+// ------------------------------------------
+function themeChange(select) {
+  const value = select.value;
+  localStorage.setItem("theme", value);
+  location.reload();
+}
